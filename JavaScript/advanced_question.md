@@ -83,16 +83,16 @@ const animate = (fruit) => {
 animateAll(animate);
 ```
 **Output**
-
-animating apple
-animating banana
-animating kiwi
+---
+animating apple     
+animating banana   
+animating kiwi 
 
 
 
 #### Note
 
-TPromises help make asynchronous code more readable and manageable than using nested callbacks. They are the basis for using async and await in modern JavaScript.
+Promises help make asynchronous code more readable and manageable than using nested callbacks. They are the basis for using async and await in modern JavaScript.
 
 ---
 ## 3. What is Async/Await in JavaScript?
