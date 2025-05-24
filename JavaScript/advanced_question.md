@@ -335,7 +335,7 @@ console.log(errorEvent('cannot set properties of null'))
 At time: 5am, an event of type: error occurred with full details as: cannot set properties of null
 ```
 
-## 7. What is Debouncing
+## 9. What is Debouncing
 
 **Debouncing** is a strategy used to improve the performance of a feature by controlling the time at which a function should be executed.
 
@@ -368,7 +368,7 @@ inputElement.addEventListener('input', (event) => {
     debounceFn(event.target.value);
 });
 ```
-## 7. What is Throttling
+## 9. What is Throttling
 
 
 **Throttling** is a mechanism that allows a function execution for a limited number of times after that it will block its execution.
@@ -404,7 +404,7 @@ document.addEventListener('scroll', (e) => {
 ```
 
 
-## 7. What is Polyfills
+## 10. What is Polyfill
 
 Polyfill is a way of providing futuristic API not available in browser.
 We might need to do the native prototype modifications, so that we can get a feature/API.
